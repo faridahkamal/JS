@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .container {
+        background-color: rgb(89, 102, 77);
+        width: 100vw;
+        height: 100vh;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+      }
+      form {
+        width: 900px;
+        height: 200px;
+        background: palegreen;
+        position: relative;
+        top: 50px;
+        left: 200px;
+      }
+      #dest {
+        width: 80%;
+        height: 30%;
+        background: mintcream;
+        position: relative;
+        top: 60px;
+        left: 20px;
+        border: none;
+        text-align: center;
+        font-size: 20px;
+      }
+      ::placeholder {
+        font-size: 25px;
+      }
+      #btn_dest {
+        width: 100px;
+        height: 50px;
+        background: mediumseagreen;
+        border: none;
+        color: aliceblue;
+        position: relative;
+        left: 20px;
+        top: 60px;
+        cursor: pointer;
+      }
+      #btn_dest:hover {
+        background: chartreuse;
+        border: 2px solid white;
+      }
+      .display {
+        width: 900px;
+        height: 400px;
+        background: white;
+        overflow-y: scroll;
+        position: relative;
+        top: 100px;
+        left: 200px;
+        display: none;
+      }
+      #output {
+        text-align: center;
+        position: relative;
+        top: 50px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <input type="text" id="dest" placeholder="Check destination info" />
+        <button id="btn_dest">Check destination</button>
+      </form>
+      <div class="display">
+        <div id="output"></div>
+      </div>
+    </div>
+    <script src="destapp.js"></script>
+  </body>
+</html>

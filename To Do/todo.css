@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #123456;
+}
+
+form {
+  width: 80%;
+  height: 200px;
+  background: dodgerblue;
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+form h3 {
+  padding: 10px;
+}
+form button {
+  width: 200px;
+  height: 80px;
+  background: #123456;
+  color: azure;
+  border: none;
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+form button:hover {
+  background: -webkit-linear-gradient(#aecdec, dodgerblue, pink, red);
+  border: 2px solid white;
+}
+
+input {
+  width: 70%;
+  height: 80px;
+  border: none;
+  background: #aecdec;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+  color: #000;
+}
+
+::placeholder {
+  font-size: 16px;
+  color: #000;
+}
+
+.display {
+  width: 500px;
+  height: 400px;
+  border: 2px solid white;
+  overflow-y: scroll;
+  position: relative;
+  top: 80px;
+  left: 500px;
+}
+.display li {
+  list-style: none;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+}/*# sourceMappingURL=todo.css.map */

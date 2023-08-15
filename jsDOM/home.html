@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      main {
+        width: 100vw;
+        height: 100vh;
+      }
+      nav {
+        width: 100%;
+        height: 100px;
+        background: orange;
+      }
+      ul {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 30px;
+        list-style: none;
+      }
+      ul a {
+        text-decoration: none;
+        margin: 10px;
+        font-size: 16px;
+        color: white;
+      }
+      ul a:hover {
+        font-size: 20px;
+      }
+      form {
+        width: 500px;
+        height: 400px;
+        background: white;
+        box-shadow: 0 0 5px slategray;
+        position: relative;
+        top: 100px;
+        left: 450px;
+      }
+      #btn_login {
+        width: 200px;
+        height: 40px;
+        border: none;
+        background: orange;
+        font-size: 16px;
+        cursor: pointer;
+        position: relative;
+        top: 100px;
+        left: 150px;
+      }
+      #btn_login:hover {
+        background: white;
+        border: 1px solid orange;
+        color: orange;
+      }
+      input {
+        width: 80%;
+        height: 40px;
+        border: 2px solid orange;
+        margin: 5px;
+        position: relative;
+        top: 20px;
+        left: 25px;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 16px;
+      }
+      input:focus {
+        outline: black;
+        border: 3px solid black;
+      }
+      ::placeholder {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+      <form action="">
+        <h3 id="msg"></h3>
+        <input type="text" placeholder="Enter username" id="username" autocomplete="off" />
+        <input type="password" placeholder="Enter password" id="pword" />
+        <input type="password" placeholder="Confirm password" id="pword1" />
+        <button id="btn_login">Login</button>
+      </form>
+    </main>
+    <script src="home.js"></script>
+  </body>
+</html>
