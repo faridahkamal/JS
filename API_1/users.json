@@ -1,0 +1,7 @@
+[
+  { "id": 1, "username": "sanji", "password": "mellorine", "avatar": "img/sanji.jpeg" },
+  { "id": 2, "username": "zoro", "password": "wado", "avatar": "img/zoroR.jpeg" },
+  { "id": 3, "username": "boa", "password": "luffy", "avatar": "img/boa.jpeg" },
+  { "id": 4, "username": "nico", "password": "fleurs", "avatar": "img/nico.jpeg" },
+  { "id": 5, "username": "luffy", "password": "niku", "avatar": "img/luffy.jpeg" }
+]
